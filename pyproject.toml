@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hermes bot"
+version = "0.1.0"
+description = "A bot that makes your life easier"
+authors = ["FranDev"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+py-cord = {extras = ["speed", "voice"], version = "^2.3.2"}
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
